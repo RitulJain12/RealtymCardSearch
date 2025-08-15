@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Game</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="result-box">
+            <h2>Game Result</h2>
+            <div class="stat" id="scoree"></div>
+            <div class="stat" id="wrong"></div>
+            <div class="stat" id="accuracy"></div>
+            <div class="performance" id="performance"></div>
+        </div>
+
+        <div class="overlay" id="overlay">
+            <div class="overlay-content">
+                <div class="bubble-icon">🫧</div>
+                <button id="startBtn">Start Game</button>
+            </div>
+        </div>
+
+        
+        <div id="redOverlay"></div>
+
+        <div class="Box">
+            <div class="top">
+                <div class="Element">
+                    <h2 class="hit">Hit</h2>
+                    <div class="Rect" id="hit"></div>
+                </div>
+                <div class="Element">
+                    <h2 class="score">Score</h2>
+                    <div class="Rect" id="score">0</div>
+                </div>
+                <div class="Element">
+                    <h2 class="timer">Timer</h2>
+                    <div class="Rect" id="timeer">60</div>
+                </div>
+            </div>
+            <div class="btm" id="gameArea"></div>
+        </div>
+    </div>
+
+    <script src="bubble.js"></script>
+</body>
+</html>
